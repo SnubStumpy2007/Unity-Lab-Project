@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        OriginalPosition = new Vector3(0, 0.5f, 0);
+        Instantiate(PlayerRB, OriginalPosition, Quaternion.identity);
         PlayerRB = GetComponent<Rigidbody>();
     }
 
@@ -58,6 +60,6 @@ public class PlayerMovement : MonoBehaviour
 
         public void Respawn()
         {
-        transform.position = OriginalPosition;
+       // PlayerRB.transform.position = OriginalPosition.position;
         }
     }
