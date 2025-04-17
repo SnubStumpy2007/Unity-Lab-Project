@@ -46,17 +46,19 @@ public class PlayerMovement : MonoBehaviour
         //Boundaries.  If a player crosses these boundaries, destroy the player, then respawn the player
         if (PlayerRB.position.x >= XBoundary)
         {
-           // Destroy(PlayerRB);
             Debug.Log("Player has left the play area X");
             Respawn();
         } else if (PlayerRB.position.z >= ZBoundary)
         {
             Debug.Log("Player has left the play area Z");
+            Respawn();
         } else if (PlayerRB.position.x <= -XBoundary)
         {
             Debug.Log("Player has left the play area -X");
+            Respawn();
         } else if (PlayerRB.position.z <= -ZBoundary) {
             Debug.Log("Player has left the play area -Z");
+            Respawn();
         } 
     }
 
