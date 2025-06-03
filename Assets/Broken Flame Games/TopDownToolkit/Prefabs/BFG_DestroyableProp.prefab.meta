@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 93b618b410880d44d9fe072f52a08075
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319840
+  packageName: Top Down Toolkit
+  packageVersion: 1.0
+  assetPath: Assets/Broken Flame Games/TopDownToolkit/Prefabs/BFG_DestroyableProp.prefab
+  uploadId: 759832

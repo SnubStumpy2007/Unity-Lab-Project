@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a7107c271e118a04199f8d72738a32b2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319840
+  packageName: Top Down Toolkit
+  packageVersion: 1.0
+  assetPath: Assets/Broken Flame Games/TopDownToolkit/Prefabs/Particles/BFG_DestroyParticle.prefab
+  uploadId: 759832

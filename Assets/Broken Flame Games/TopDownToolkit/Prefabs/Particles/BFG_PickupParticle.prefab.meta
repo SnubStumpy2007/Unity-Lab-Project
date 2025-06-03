@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f9d2c0e8f6ed20743b3069ed7a3de153
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319840
+  packageName: Top Down Toolkit
+  packageVersion: 1.0
+  assetPath: Assets/Broken Flame Games/TopDownToolkit/Prefabs/Particles/BFG_PickupParticle.prefab
+  uploadId: 759832

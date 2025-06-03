@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f2efe4eae80f4b14c84cdd7fc3ea37c0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319840
+  packageName: Top Down Toolkit
+  packageVersion: 1.0
+  assetPath: Assets/Broken Flame Games/TopDownToolkit/Prefabs/BFG_Player_HUD.prefab
+  uploadId: 759832

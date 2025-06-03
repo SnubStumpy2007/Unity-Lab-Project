@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7bc077c1158732e41aef0aa1c9f881b5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319840
+  packageName: Top Down Toolkit
+  packageVersion: 1.0
+  assetPath: Assets/Broken Flame Games/TopDownToolkit/Prefabs/BFG_AmmoPickup.prefab
+  uploadId: 759832

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d7cda512b5cbc2f41b86f5385fe30e44
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319840
+  packageName: Top Down Toolkit
+  packageVersion: 1.0
+  assetPath: Assets/Broken Flame Games/TopDownToolkit/Prefabs/BFG_BasicPlayer.prefab
+  uploadId: 759832

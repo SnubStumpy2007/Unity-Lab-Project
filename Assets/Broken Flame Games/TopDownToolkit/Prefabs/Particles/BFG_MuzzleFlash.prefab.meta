@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ff2b0c3def3dd854ab7d522d98b1af43
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319840
+  packageName: Top Down Toolkit
+  packageVersion: 1.0
+  assetPath: Assets/Broken Flame Games/TopDownToolkit/Prefabs/Particles/BFG_MuzzleFlash.prefab
+  uploadId: 759832
