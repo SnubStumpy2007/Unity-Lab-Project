@@ -1,7 +1,14 @@
 fileFormatVersion: 2
-guid: 1a6847d768f3ddb44a16c6fe5bc70144
+guid: 6f7d15e0212d1f84da6c2d3f7f4f0521
 PrefabImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 319840
+  packageName: Top Down Toolkit
+  packageVersion: 1.0
+  assetPath: Assets/Broken Flame Games/TopDownToolkit/Prefabs/BFG_ShootingPlayer.prefab
+  uploadId: 759832
