@@ -15,6 +15,7 @@ public class EnemyMovement : MonoBehaviour
     {
         EnemyRB = GetComponent<Rigidbody>();
         Player = GameObject.Find("Player");
+        OriginalPosition = transform.position;
     }
 
     // Update is called once per frame
@@ -22,7 +23,8 @@ public class EnemyMovement : MonoBehaviour
     {
 
         Vector3 LookDirection = (Player.transform.position - transform.position).normalized;
-        EnemyRB.AddForce(LookDirection * EnemySpeed * Time.deltaTime);
+        EnemyRB.linearVelocity = LookDirection * EnemySpeed;
+
 
 
         if (EnemyRB.position.x >= XBoundary)

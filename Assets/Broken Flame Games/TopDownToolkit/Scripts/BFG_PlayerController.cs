@@ -33,8 +33,11 @@ namespace BrokenFlameGames
 
         [SerializeField] private LayerMask IgnoreMask = 1;
 
+        private Rigidbody PlayerRB;
+
         void Start()
         {
+            PlayerRB = GetComponent<Rigidbody>();
             MainCamera = Camera.main;
             if (MainCamera != null)
             {
