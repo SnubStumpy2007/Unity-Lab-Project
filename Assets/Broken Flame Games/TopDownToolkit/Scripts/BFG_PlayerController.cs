@@ -34,6 +34,8 @@ namespace BrokenFlameGames
         [SerializeField] private LayerMask IgnoreMask = 1;
 
         private Rigidbody PlayerRB;
+        Vector3 OriginalPosition;
+        private float fallBoundary = -6.0f;
 
         void Start()
         {
@@ -99,6 +101,19 @@ namespace BrokenFlameGames
                     Time.deltaTime * cameraFollowSpeed
                 );
             }
+
+            // boundaries
+            if (PlayerRB.position.y < fallBoundary)
+            {
+                Respawn();
+            }
+        }
+
+        public void Respawn()
+        {
+            PlayerRB.linearVelocity = Vector3.zero;
+            PlayerRB.position = OriginalPosition;
+            Debug.Log("Player respawned");
         }
 
         void RotationMan()
