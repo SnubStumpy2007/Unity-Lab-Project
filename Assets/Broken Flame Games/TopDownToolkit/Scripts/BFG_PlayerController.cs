@@ -36,6 +36,7 @@ namespace BrokenFlameGames
         private Rigidbody PlayerRB;
         Vector3 OriginalPosition;
         private float fallBoundary = -6.0f;
+        private float playerScore = 0;
 
         void Start()
         {
