@@ -34,9 +34,11 @@ namespace BrokenFlameGames
         [SerializeField] private LayerMask IgnoreMask = 1;
 
         private Rigidbody PlayerRB;
+        private Rigidbody EnemyRB;
         Vector3 OriginalPosition;
-        private float fallBoundary = -6.0f;
+        [SerializeField] private float fallBoundary = -6.0f;
         private float playerScore = 0;
+        [SerializeField] private float playerHealth = 100.0f;
 
         void Start()
         {
@@ -106,6 +108,12 @@ namespace BrokenFlameGames
             // boundaries
             if (PlayerRB.position.y < fallBoundary)
             {
+                Respawn();
+            }
+
+            if (playerHealth == 0)
+            {
+                Destroy(PlayerRB);
                 Respawn();
             }
         }

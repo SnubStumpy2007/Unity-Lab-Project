@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
@@ -8,6 +9,7 @@ public class EnemyMovement : MonoBehaviour
     private float EnemySpeed = 10.0f;
     private float XBoundary = 10.0f;
     private float ZBoundary = 6.0f;
+    private float EnemyHealth = 100.0f;
     Vector3 OriginalPosition;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -47,7 +49,15 @@ public class EnemyMovement : MonoBehaviour
             Debug.Log("Enemy has left the play area -Z");
             Respawn();
         }
+
+        // if health drops to zero, destroy enemy and respawn
+        if(EnemyHealth == 0) {
+            Destroy(EnemyRB);
+            Respawn();
+        }
     }
+
+    
 
     public void Respawn()
     {
